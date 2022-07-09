@@ -1,0 +1,41 @@
+.sub-header{
+    width: 100vw;
+    height: 34vh;
+    background-image: url('../images/Back2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.setup-right{
+    width: 40%;
+    text-align: center;
+}
+.setup-right p{
+    letter-spacing: 1px;
+    color: coral;
+}
+.claint{
+    width: 30%;
+    color: white;
+}
+.teacher{
+    width: 75px;
+    height: 70px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: beige;
+}
+.teacher-image{
+    width: 75px;
+    border-radius: 50px;
+}

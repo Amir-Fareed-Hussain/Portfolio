@@ -1,0 +1,274 @@
+*{margin: 0; padding: 0; box-sizing: border-box;  font-family: 'Rubik', sans-serif;}
+body{
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/* .back{
+	width: 100%; height: 100vh;
+	background-image: url('images/p4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+} */
+header{
+	width: 100%; height: 100px;
+	display: flex; justify-content: space-between;
+	align-items: center;
+	background-attachment: fixed;
+}
+.logo{
+	width: 30%;
+	line-height: 100px;
+}
+.logo h1{
+	color: cornsilk;
+	padding-left: 50px;
+	font-size: 42px;
+	font-family: "Consolas";
+	font-style: italic;
+}
+span{color: crimson;}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 85px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: lemonchiffon;
+	font-size: 20px;
+    border-bottom: 1px solid crimson;
+	transition: all 0.5s linear;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid cornsilk;
+}
+
+/*--------------------------------- welcome to home page -----------------------------*/
+
+.home{
+	padding: 130px;
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.left-col{
+	width: 80%;
+}
+.right-col{
+	width: 60%;
+}
+.right-col img{
+	width: 300px;
+	border: 9px solid chocolate;
+    border-radius: 10px;
+}
+.left-col h1{
+	color: lightcoral;
+	font-size: 40px;
+	font-family: "Lucida Sans Unicode";
+}
+.left-col h2{
+	margin: 30px 0;
+	color: cornsilk; 
+}
+.btn{
+	border: 1px solid darkorange;
+	background-color: darkorange;
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	transition: all 0.5s;
+}
+.btn:hover{
+	background: transparent;
+}
+
+/*------------------------------- welcom to the about page -----------------------*/
+
+.about-left{
+	width: 45%;
+	margin-right: 65px;
+}
+.about-right{
+	width: 46%;
+}
+.about-right img{
+	width: 100%;	
+	border: 1px solid rgb(68, 66, 66);
+    border-radius: 10px;
+	margin-left: 62px;
+}
+.about{
+	padding-top: 130px;
+}
+.about-left h1{
+	color: wheat;
+	border-bottom: 1px solid orange;
+	font-size: 40px;
+}
+
+.about-left p{
+	margin: 55px 3px;
+	color: white;
+	text-align: left;
+	letter-spacing: 1px;
+}
+
+/*------------------------------- welcome to the skillls  -----------------------*/
+
+.service{
+	padding-top: 0px;
+    margin-top: 0px;
+}
+.skill_container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.skill_point{
+	width: 77%;
+    height: 22px;
+    background: transparent;
+    border: 1px solid darkorange;
+	margin-top: 31px;
+	border-radius: 8px;
+}
+.skill_percent{
+	height: 20px;
+    border-radius: 8px;
+    background: cornflowerblue;
+}
+.left_side{
+	color: aliceblue;
+    position: relative;
+    bottom: -46px;
+}
+.right_side{
+	position: relative;
+    top: 51px;
+
+}
+.title{
+	width: 100%;
+	padding: 10px 0;
+}
+.title h1{
+	color: wheat;
+    text-align: center;
+    font-size: 50px;
+    margin: 80px;
+    border-bottom: 1px solid lightgoldenrodyellow;
+}
+b{
+	text-align: center;
+    margin: 54px 406px;
+    padding: 9px 69px;
+    font-size: 15px;
+}
+
+/*---------------------------- welcome to Courses section -----------------------*/
+.card{width: 20%;}
+.card h3{color: crimson; font-size: 1.3rem; margin: 10px 0;}
+.card a{color: cadetblue;font-size: 1rem;}
+.card p{color: white; letter-spacing: 1px; font-style: italic; margin: 10px 0;}
+.btn_container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+/*---------------------------- welcome to contect section -----------------------*/
+
+.contect{
+	padding: 0;
+	padding-bottom: 100px;
+}
+.contect-left{
+	width: 35%;
+    border-right: 1px solid tan;
+    height: 140px;
+    color: white;
+    letter-spacing: 1px;
+}
+.contect-left h4{
+	padding-top: 8px;
+    font-size: 16px;
+}
+.contect-right{
+	width: 37%;
+}
+form input{
+	border: 1px solid white;
+    background: transparent;
+    padding: 4px 18px;
+    border-radius: 2px;
+    margin: 6px 0;
+    color: tomato;
+}
+.txt{
+	border: 1px solid white;
+    background: transparent;
+    padding: 4px 18px;
+    border-radius: 2px;
+    margin: 6px 0;
+    color: tomato;
+}
+
+/*-------------------------- welcome to the footer section ---------------------*/
+.footer{
+	width: 100%;
+    height: 195px;
+    background: gold;
+}
+.row1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+table{
+	width: 80%;
+    margin-right: 100px;
+    margin: 20px;
+}
+.footer-right{
+	width: 40%;
+    margin-left: 66px;
+}
+td{
+	color: aliceblue;
+    text-align: center;
+    padding-left: 85px;
+    padding-top: 6px;
+}
+th{
+	color: tomato;
+    font-size: 18px;
+    padding-left: 91px;
+}
+.footer-right img{
+	width: 30%;
+    margin-left: 41px;
+}
+.footer-icons{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon{
+	font-size: 30px;
+    margin: 0 23px;
+    position: relative;
+    bottom: 11px;
+    margin-top: 23px;
+	color: #333;
+}

@@ -1,0 +1,65 @@
+/* Responsive index.html */
+@media screen and (max-width: 789px) {
+    header {
+        width: 100vw;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu {
+        margin-left: 287px;
+        width: 100vw;
+    }
+
+    .left-col {
+        width: 70%;
+    }
+
+    .right-col {
+        width: 30%;
+    }
+
+    .res-row {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: baseline;
+        margin-top: 325px;
+        margin-bottom: -34pc;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-right {
+        width: 100%;
+        position: relative;
+        bottom: 55pc;
+        margin: 93px -55px;
+    }
+
+    .skill_point {
+        width: 125%;
+    }
+
+    .course-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .contect-left {
+        width: 55%;
+    }
+}

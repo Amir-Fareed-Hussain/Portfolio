@@ -1,0 +1,19 @@
+/* utilytes for courses section */
+.mr-55xp{margin-right: 55px;}
+.prl-34{padding:20px 44px;}
+
+/* utilytes for about.html/sub-header section */
+.col-white{color: white;}
+.f-size{font-size: 65px; color: wheat;}
+
+/* utilytes for about.html/setup section */
+.w-36{width: 36pc;}
+.w-30{width: 30%;}
+.col-crisum{color: crimson;}
+.new-row{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 170px;
+}
